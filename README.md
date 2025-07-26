@@ -97,3 +97,7 @@ Simples mano, bué simples:
         <td>Sets of key-value pairs where keys are unique and map to only one value</td>
     </th>
 </table>
+
+Podem ser mutáveis ou read-only
+
+### List
