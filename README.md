@@ -71,3 +71,29 @@ As you can see, this way i'm able to declare them without initializing them
 And now, let's move on to...
 
 ## Collections
+
+Basically some data structures, you're already familiar with them, you know java and javascript
+
+> Bro, Nine Vicious is a banger gahdamn
+
+So, quais são os tipos de collections?
+Simples mano, bué simples:
+
+<table>
+    <tr>
+        <th>Collection type</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>List</td>
+        <td>Ordered collections of items</td>
+    </th>
+    <tr>
+        <td>Sets</td>
+        <td>Unique unordered collection of items</td>
+    </th>
+    <tr>
+        <td>Maps</td>
+        <td>Sets of key-value pairs where keys are unique and map to only one value</td>
+    </th>
+</table>
