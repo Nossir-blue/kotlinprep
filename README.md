@@ -63,3 +63,11 @@ Kotlin normalmente tem type inference but i can basically define the data types 
         <td>val message: String = "Hello, world!</td>
     </tr>
 </table>
+
+As you can see, this way i'm able to declare them without initializing them
+
+**Note**: They are writen with the char[0].toUpperCase (lol, basically they are capitalized in the first letter)
+
+And now, let's move on to...
+
+## Collections
