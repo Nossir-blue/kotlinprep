@@ -101,3 +101,28 @@ Simples mano, bué simples:
 Podem ser mutáveis ou read-only
 
 ### List
+
+Listas guardam items em ordem e permitem duplicates
+
+**Nota**: Isso se aplica no tópico completo de collections, you can define readonly lists and mutable lists
+
+In this case, read-only lists are like this:
+`listOf()`
+to create a mutable list, do it as follow:
+`mutableListOf()`
+
+They are either type infered or type defined
+To define their type, just add a `<>` with their type inside (bro, for a language deemed to be "Java but simpler", they sure found a way to make it sort of confusing to learn with all this stuff but anyways)
+
+<code>
+fun main(){
+    val readOnlyShapes = listOf("triangle", "square", "circle")
+    println(readOnlyShapes)
+
+    val shapes: MutableList<String> = MutableList("triangle", "square", "circle")
+    println(shapes)
+}
+</code>
+
+Basicamente, para criar listas mutáveis com inferência de dados é da forma que está em cima
+Sem inferência de dados é a que está em baixo mas como não entendi, vou tentar entender
